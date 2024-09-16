@@ -1,0 +1,22 @@
+
+
+.gradient-background{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(97, 55, 161, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    z-index: -1; /* Ensure the background is behind the content */
+    animation: whirlpool 8s linear infinite alternate;
+}
+
+
+@keyframes whirlpool {
+    0% {
+        scale: 100%;
+    }
+    100% {
+        scale: 200%;
+    }
+}
