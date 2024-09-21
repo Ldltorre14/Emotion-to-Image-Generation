@@ -19,17 +19,24 @@ function Home(){
         <div className="home-content">
             <GradientBackground />
             <Overlay />
-            <div className="content-container">
+            <div className="main-container">
                 <h1>EmotionGen</h1>
-                <div>
-                <Container>
-                    <p>Generate Images based on your Emotions using AI powered tools</p>
-                </Container>
-                <Container>
-                    
-                </Container>
+                
+                <div className="content-container">
+                    <Container>
+                        <h2>Section designed for emotion image</h2>
+                        <div className="image-card">
+                            <image>test</image>
+                        </div>
+                    </Container>
+                    <Container>
+                        <h2>Section designed for generated image</h2>
+                        <div className="image-card">
+                            <image>test</image>
+                        </div>
+                    </Container>
                 </div>
-                <Button text="Get Started" onClick={handleClick} type="primary" size="large"/>   
+                <Button text="Try It!" onClick={handleClick} type="primary" size="large"/>   
             </div>
         </div>
     )

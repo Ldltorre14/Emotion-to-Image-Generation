@@ -1,8 +1,13 @@
-.container{
-    background-color: rgba(128, 128, 128, 0.2);
-    padding: 10px;
-    border-radius: 10px;
-    max-width: 1200px;
-    margin: 0 auto;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 212, 255, 0.1); /* Transparent white */
+    padding: 20px;
+    border-radius: 20px;
+    max-width: 300px;
+    min-width: 300px;
+    min-height: 340px;
+    margin: 20px auto; /* Add margin for spacing */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Subtle white border */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 0 4px 8px rgba(97, 55, 161, 0.3); /* Depth effect */
 }

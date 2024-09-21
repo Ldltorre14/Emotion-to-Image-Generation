@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
-
-.home-content{
+.home-content {
     position: relative;
     overflow: hidden;
     display: flex;
@@ -8,23 +6,40 @@
     align-items: center;
     justify-content: flex-start;
     min-height: 100vh;
-    padding-top: 35px;
-    
+    padding-top: 50px; 
 }
 
-.home-content h1{
-    margin-top: 0px;
-    font-size: 100px;
-}
-
-.content-container{
+.main-container {
     z-index: 1;
     color: white;
+    text-align: center;  /* This centers the text inside the main container */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers all the content horizontally */
 }
 
-.content-container h1{
-    font-family:'Poppins', sans-serif;
-    margin-top: 1rem;
+.main-container h1 {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 0rem;
+    margin-bottom: 0px;
+    font-size: 80px;
+}
+.main-container h2{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 0rem;
+    margin-bottom: 0px;
 }
 
+.content-container {
+    display: flex;
+    justify-content: center; /* Centers the container contents horizontally */
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 90vw;
+    gap: 20px; /* Adds space between your containers */
+}
 
+.content-container p {
+    text-align: center; /* Center text inside the Container component */
+}
